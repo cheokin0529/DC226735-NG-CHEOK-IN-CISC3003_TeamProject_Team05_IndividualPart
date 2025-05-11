@@ -1,34 +1,48 @@
-⚙️ Technology Used
-HTML5
-CSS3
-Core/Procedural PHP programming language
-MySQL Relational Database
-🧰 Features
-Visitors/Users can browse all the Categories and Food Items.
-They also can order easily from the website.
-Admin can Manage Admin, Caegories and Food Items
-Admin can also Manage and Track Food Order and Delivery
-📖 How to Download the Project and Run on your PC?
-Pre-Requisites:
-Download and Install XAMPP
-Click Here to Download
+# ⚙️ Technology Used
+1. HTML5
+2. CSS3
+3. Core/Procedural PHP programming language
+4. MySQL Relational Database
 
-Install any Text Editor (Sublime Text or Visual Studio Code or Atom or Brackets)
-Installation
-Download as as Zip or Clone this project
-Move this project to Root Directory
+
+# 🧰 Features
+1. Visitors/Users can browse all the Categories and Food Items. 
+2. They also can order easily from the website.
+3. Admin can Manage Admin, Caegories and Food Items
+4. Admin can also Manage and Track Food Order and Delivery
+
+
+## 📖  How to Download the Project and Run on your PC?
+
+### Pre-Requisites:
+
+1. Download and Install XAMPP
+
+[Click Here to Download](https://www.apachefriends.org/index.html)
+
+2. Install any Text Editor (Sublime Text or Visual Studio Code or Atom or Brackets)
+
+### Installation
+
+1. Download as as Zip or Clone this project
+2. Move this project to Root Directory
+```
 Local Disc C: -> xampp -> htdocs -> 'this project'
-Local Disk C is the location where xampp was installed
+```
+*Local Disk C is the location where xampp was installed*
 
-Open XAMPP Control Panel and Start 'Apache' and 'MySQL'
+3. Open XAMPP Control Panel and Start 'Apache' and 'MySQL'
 
-Import Database
+4. Import Database
 
-a. Open 'phpmyadmin' in your browser b. Create a Database c. Import the SQL file provided with this project
+a. Open 'phpmyadmin' in your browser
+b. Create a Database
+c. Import the SQL file provided with this project
 
-Make Changes to settings
+5. Make Changes to settings
+
 Go to 'config' folder and Open 'constants.php' file. Then make changes on following constants
-
+```php
 <?php 
 //Start Session
 session_start();
@@ -44,6 +58,8 @@ $conn = mysqli_connect(LOCALHOST, DB_USERNAME, DB_PASSWORD) or die(mysqli_error(
 $db_select = mysqli_select_db($conn, DB_NAME) or die(mysqli_error()); //SElecting Database 
 
 ?>
-Now, Open the project in your browser. It should run perfectly.
-Test account for admin: admin
-Test password for admin: admin
+```
+
+6. Now, Open the project in your browser. It should run perfectly.
+7. Test account for admin: admin
+8. Test password for admin: admin
